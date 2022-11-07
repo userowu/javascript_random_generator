@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Francois+One&family=Noto+Serif:ital,wght@0,400;0,700;1,400&family=Press+Start+2P&family=Special+Elite&family=VT323&family=Zen+Antique&display=swap');
+
+body {
+  margin: 5vw 10vw 0px 10vw;
+  padding: 0px;
+  background-image: url("bg.png");
+  background-size:cover;
+  color: white;
+  font-family: 'Zen Antique', serif;
+  font-size: 1.2rem;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+input, button {
+  font-size: 2rem;
+}
+
+h1 {
+
+  font-variant-caps: small-caps;
+  text-shadow: 2px 2px #808080;
+  line-height: 0.5;
+
+}
+
+p {
+  font-variant-caps: small-caps;
+  font-family: 'Zen Antique', serif;
+  text-shadow: 2px 1px #808080;
+  font-size: 1.5rem;
+
+
+}
+
+#button {
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:4px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+  font-family: 'Zen Antique', serif;
+  font-size: 1.5rem;
+	font-weight:bold;
+	padding:6px 20px;
+	text-decoration:none;
+  font-variant-caps: small-caps;
+
+}
+
+#button:hover {
+  background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+
+#Input {
+  font-variant-caps: small-caps;
+  font-family: 'Zen Antique', serif;
+  font-size: 1.5rem;
+}
+
+#main {
+  margin-top: 280px;
+  text-align:center;
+
+}
+#title {
+  /* text-shadow: 0px 0px 13px #fff; */
+  transition: all 2s;
+}
+
+
+
+#output {
+
+  padding: 2vmin;
+  font-variant-caps: small-caps;
+  font-family: 'Zen Antique', serif;
+
+}
